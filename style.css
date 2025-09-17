@@ -18,11 +18,11 @@ nav {
   /* background-color: rgb(119, 200, 255); */
   padding: 20px;
 }
-#Logo {
+/* #Logo {
   width: 40px;
-}
+} */
 #Logo img {
-  width: 100px;
+  width: 40px;
 }
 #navigation {
   display: flex;
@@ -603,10 +603,10 @@ nav {
 #closeing-page h1 {
   font-size: 90px;
 }
-.second-last{
+.second-last {
   display: flex;
   justify-content: space-between;
-  margin-top:3.5rem;
+  margin-top: 3.5rem;
 }
 #collaborate img {
   width: 13rem;
@@ -647,7 +647,7 @@ nav {
   padding-top: 1rem;
 }
 #Help {
-  margin-top:4.5rem;
+  margin-top: 4.5rem;
   cursor: pointer;
 }
 #Help a {
@@ -717,124 +717,141 @@ nav {
 #say-hi:visited {
   color: purple;
 }
-footer{
+footer {
   background-color: black;
-  height:28rem;
+  height: 28rem;
 }
-#all-list{
+#all-list {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-#list{
+#list {
   padding-top: 5rem;
   color: white;
   margin-left: 2rem;
 }
-#list ul{
+#list ul {
   padding-top: 15px;
   font-size: 19px;
 }
 
-#list ul li{
+#list ul li {
   list-style-type: none;
   cursor: pointer;
 }
-#list2{
+#list2 {
   padding-top: 5rem;
   color: white;
   margin-left: 2rem;
 }
-#list2 ul{
+#list2 ul {
   padding-top: 15px;
   font-size: 19px;
 }
 
-#list3 ul li{
+#list3 ul li {
   list-style-type: none;
   cursor: pointer;
 }
-#list3{
+#list3 {
   padding-top: 5rem;
   color: white;
   margin-left: 2rem;
 }
-#list3 ul{
+#list3 ul {
   padding-top: 15px;
   font-size: 19px;
 }
 
-#list3 ul li{
+#list3 ul li {
   list-style-type: none;
   cursor: pointer;
 }
-#list3 ul li{
+#list3 ul li {
   list-style-type: none;
   cursor: pointer;
 }
-#list4{
+#list4 {
   padding-top: 5rem;
   color: white;
   margin-left: 2rem;
 }
-#list4 ul{
+#list4 ul {
   padding-top: 15px;
   font-size: 19px;
 }
 
-#list4 ul li{
+#list4 ul li {
   list-style-type: none;
   cursor: pointer;
 }
-#final{
+#final {
   padding-top: 5rem;
   color: white;
   display: flex;
   justify-content: space-around;
 }
-#icons i{
+#icons i {
   color: white;
 }
 
 /* media-query */
 
-@media(max-width:600px){
-  #navigation{
-    font-size:90%;
-    width: 17rem;
+@media (max-width: 600px) {
+  #navigation {
+    font-size: 90%;
+    width: 11rem;
+    margin-left: -10rem;
   }
-  #Hire-button #button:link{
-    background-color:black;
+  .drop{
+    display:none;
   }
-  #logo img{
-    /* margin-left:-2rem; */
+  #Hire-button #button:link {
+    padding: 7px 9px;
+    font-size:13px;
+    margin-right: .8rem;
   }
-  #hero-section img{
-    height:15rem;
+  /* .whats{
+    padding-left: -3px;
+  } */
+  nav {
+    padding: 1px;
+  }
+  #Logo img {
+    width: 60px;
+    margin-left: -1rem;
+  }
+  #hero-section{
+    display: flex;
+    flex-direction: column;
+  }
+  #hero-section img {
+    height: 15rem;
     width: 15rem;
   }
-  #hero-text{
-    padding-left:3rem;
-    width:350px;
+  #hero-text {
+    padding-left: 3rem;
+    width: 350px;
   }
-  #hero-text h1{
-    font-size:1.8rem;
-  }
-  #hero-text p{
-    font-size:.8rem;
-  }
-  #skills{
-    margin-top:100px;
-  }
-  #skills-header{
+  #hero-text h1 {
     font-size: 2rem;
   }
-  #skills-paragraph{
+  #hero-text p {
+    padding-top:4px;
+    font-size:0.9rem;
+  }
+  #skills {
+    margin-top: 100px;
+  }
+  #skills-header {
+    font-size: 2rem;
+  }
+  #skills-paragraph {
     font-size: 0.9rem;
   }
-  #skills-card{
-
-  }
-  .ideas-design{
+  /* #skills-card {
+  } */
+  .ideas-design {
     height: 48rem;
     display: flex;
     flex-direction: column;
@@ -842,32 +859,32 @@ footer{
     align-items: center;
   }
   #ideas-card {
-    height:20rem;
+    height: 20rem;
     width: 30rem;
   }
-  .speed-website{
+  .speed-website {
     height: 48rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  #website-card{
+  #website-card {
     height: 20rem;
     width: 30rem;
   }
-#dev-story_textcontent{
-  padding-left:3px;
-}
-  #dev-story_textcontent  p{
+  #dev-story_textcontent {
+    padding-left: 3px;
+  }
+  #dev-story_textcontent p {
     font-size: 14px;
   }
-   #dev-story_textcontent h1{
+  #dev-story_textcontent h1 {
     font-size: 35px;
   }
-  #dev-story_image img{
-    height:300px;
+  #dev-story_image img {
+    height: 300px;
     width: 300px;
-    padding-left:-1000pxpx;
+    padding-left: -1000pxpx;
   }
 }
